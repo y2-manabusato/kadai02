@@ -1,0 +1,409 @@
+/* ここから下に記載していく */
+/* ここからヘッダーデザイン */
+.header__nav{
+  display: flex;
+}
+.header__nav li{
+  margin-left: 50px;
+}
+.header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* ここからメインビジュアル */
+
+.mainvisual{
+  height: 400px;
+  background: url("../img/mainbg.png");
+  background-position: center;
+  background-size: cover;
+}
+.mainvisual__title{
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  padding-top: 180px;
+}
+.mainvisual__subtitle{
+  font-size: 30px;
+  /* font-weight: bold; */
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;  
+}
+/* ABOUT */
+.about__title{
+  font-size: 30px;
+  color: goldenrod;
+  text-align: center;
+  padding-top: 60px;
+}
+.about__subtitle{
+  font-size: 14px;
+  text-align: center;
+  margin-top: 30px;
+}
+.about__text1{
+  font-size: 14px;
+  text-align: center;
+  margin-top: 40px;
+}
+.about__text2{
+  font-size: 14px;
+  text-align: center;
+  margin-top: 40px;
+}
+.about__text3{
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+}
+.about__text4{
+  font-size: 14px;
+  text-align: center;
+  margin-top: 40px;
+}
+.about__text5{
+  font-size: 14px;
+  text-align: center;
+  margin-top: 40px;
+}
+.about__text6{
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+}
+.imgBox{
+  display: flex;
+  margin-bottom: 50px;
+  padding-top: 80px;
+}
+
+/* CORSE */
+/* .course{
+  width: 100%;
+  height: 1500px;
+  text-align: center;
+  padding-bottom: 60px;
+}
+.course__title{
+  font-size: 30px;
+  text-align: center;
+  margin-top: 30px; 
+  padding-top: 60px; 
+  padding-bottom: 60px;
+}
+.course__text1{
+  font-size: 14px;
+  text-align: center;
+  margin-top: 40px;
+}
+.course__text2{
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+}
+.course__img1{
+  width: 20%;
+  text-align: left; 
+  margin: 10px;
+  margin-top: 40px;
+}
+.course__img2{
+  width: 20%; 
+  text-align: right;
+  margin: 10px;
+}
+.course__img3{
+  width: 20%; 
+  text-align: left;
+  margin: 10px;
+} */
+/* 断念！！ */
+/* course */
+.course {
+  margin: 50px 0;
+}
+
+.course__title {
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.course__text {
+  text-align: center;
+  font-size: 20px;
+  margin: 0 70px;
+}
+
+.course__box {
+  margin-top: 50px;
+}
+
+.course__inner {
+  display: flex;
+}
+
+.course__content {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.course__content__right {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.course__content img {
+  width: 100%;
+  vertical-align: top;
+}
+
+.content__title {
+  width: 100%;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.content__text {
+  width: 100%;
+}
+
+.content__left {
+  width: 70%;
+  margin-left: 50px;
+}
+
+.content__right {
+  width: 70%;
+  margin-right: 50px;
+}
+
+/* NEWS */
+.news{
+  background-color: cadetblue;
+  width: 100%;
+  height: 780px;
+  text-align: center;
+  padding-bottom: 60px;
+}
+.news__title{
+  font-size: 30px;
+  color: goldenrod;
+  text-align: center;
+  margin-top: 30px; 
+  padding-top: 50px; 
+  padding-bottom: 50px;
+}
+.news__subtitle{
+  font-size: 25px;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 20px; 
+}
+.news img{
+  width: 100%; 
+  margin: 10px;  
+  margin-top: 50px; 
+}
+.news__cards{
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+.news__day{
+  font-size: 20px; color:black;
+  text-align: left;
+  margin: 10px;
+  padding-bottom: 30px;
+}
+.news__test{
+  font-size: 20px; color:black;
+  text-align: center;
+  margin: 10px;
+}
+
+
+/* 区切らた区画 */
+.imgBox p{
+  width: 25%;
+}
+/* 区切られた区画のパーセント */
+.imgBox p img{
+  width: 100%;
+}
+
+.access{
+  margin-left: auto;
+  margin-right: auto;
+  background-color: gainsboro;
+  padding-top: 150px; 
+}
+.access__title{
+  font-size: 30px;
+  text-align: center;
+  padding-top: 60px; 
+ }
+.access__subtitle{
+  font-size: 20px;
+  text-align: center;
+  padding-top: 60px; 
+  padding-bottom: 60px;  
+}
+.access img{
+  width: 100%;
+}
+.access__item{
+  padding-top: 24px;
+  padding-bottom: 24px;
+  /* text-align: right; */
+  /* width: 100%; */
+  display: flex;
+}
+.access__item__label{
+  width: 100%;
+  max-width: 248px;
+  letter-spacing: 0.05em;
+  font-size: 18px;  
+}
+.access__text {
+  flex: 1;
+  width: 100%;
+  max-width: 410px;
+  font-size: 18px;
+}
+/* ここからコンタクト */
+.contact__title{
+  font-size: 30px;
+  text-align: center;
+  padding-top: 60px;
+}
+.contact__subtitle{
+  font-size: 14px;
+  text-align: center;
+  margin-top: 30px;
+}
+.contact__text1{
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+}
+.contact__text2{
+  font-size: 14px;
+  text-align: center;
+  margin-top: 60px;
+}
+.contact__text3{
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+}
+.contact__text4{
+  font-size: 14px;
+  text-align: center;
+  margin-top: 30px;
+}
+/* ここからサンプル流用 */
+.Form {
+  margin-top: 80px; 
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 768px;
+}
+
+.Form-Item {
+  border-top: 1px solid #ddd;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.Form-Item:nth-child(5) {
+  border-bottom: 1px solid #ddd;
+}
+.Form-Item-Label {
+  width: 100%;
+  max-width: 248px;
+  letter-spacing: 0.05em;
+  font-weight: bold;
+  font-size: 18px;
+}
+.Form-Item-Label.isMsg {
+  margin-top: 8px;
+  margin-bottom: auto;
+}
+.Form-Item-Input {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-left: 40px;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 48px;
+  flex: 1;
+  width: 100%;
+  max-width: 410px;
+  background: #eaedf2;
+  font-size: 18px;
+}
+.Form-Item-Textarea {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-left: 40px;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 216px;
+  flex: 1;
+  width: 100%;
+  max-width: 410px;
+  background: #eaedf2;
+  font-size: 18px;
+}
+
+.Form-Btn {
+  border-radius: 6px;
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 280px;
+  display: block;
+  letter-spacing: 0.05em;
+  background-color: goldenrod;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}
+/* ボタンぽく */
+.Form-Btn:hover {
+  transform: translateY(0.1875em);
+  border-bottom-color: transparent;
+}
+.Form-Check{
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  line-height: 35px;
+}
+.footer{
+  width: 100%;
+  height: 75px; 
+  margin-top: 32px;
+  text-align: center;
+  padding: 10px 0;
+  background-color: #707070;
+}
+.footer-text {
+  margin-top: 30px;
+  color: #fff;
+}
